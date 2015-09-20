@@ -1,0 +1,29 @@
+1. A database model in SQL Server that will be efficient in registering the address books, regardless of the number of users using the system. To simplify, each user can be identified by a name and email only, and entries in his address book will refer to other users by an email.
+-- this part is done (RosterDb project) and mostly covered with Unit-Tests (RosterDb_Test project). 
+/*
+	Developed by me system works fine in sync and async modes (sets up by parameter).
+	Architectural solutions could be various, depending on final business needs. My bet is on async model with queues suspension - it provides with flexibility and  scalability (modules are mostly(but not finally or completely) optimized for async). Also, having more time I would like to do a separate dedicated real table with connection information updated asynchronous as soon as new address book entries were saved.
+	So, by removing clustered index on "materialized" view \RosterDb\Schema\dbo\Views\V_USER_TO_USER_CONNECTION.sql system would work with sync calls, serving fairly high traffic. In the same time, running in async mode client waiting time reduces dramatically as well as response time on querying. 
+	The entrance point to register a roster is :
+*/
+[dbo].[register_user_contact_list]
+    @user_name                    NVARCHAR(255)                            -- users name
+    , @user_email                NVARCHAR(320)                            -- users email
+    , @address_book_entry_xml    XML    (AddressBookEntrySchemaCollection)    -- xml representation of address book <see=AddressBookEntrySchemaCollection/>
+    , @save_address_book_async    BIT = 1                                    -- process address book saving sync(0) or async(1)
+
+2. The task should present a solution that will allow .Net code to effectively query the DB model to find the list of connections one user has to all other entries in other address books. There is no need to present any .Net code; what needs to be shown is how, on the DB side, would this querying be supported/implemented.
+-- So, it is also done:
+-- return content of currently active address book
+[dbo].[get_address_book_entry_by_email_name]
+    @user_name                    NVARCHAR(255)                            -- users name
+    , @user_email                NVARCHAR(320)                            -- users email
+
+-- returns all connections = users, having input email in their currently active address books. Uses and rely on "materialized view" [dbo].[V_USER_TO_USER_CONNECTION]
+[dbo].[get_user_connections_by_email]
+    @user_email                NVARCHAR(320)                            -- users email 
+
+-- returns all connections = users, having input email in their currently active address books. Does not use indexed view
+[dbo].[get_user_connections_by_email2]
+    @user_email                NVARCHAR(320)                            -- users email
+

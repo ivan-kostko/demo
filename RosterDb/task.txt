@@ -1,0 +1,19 @@
+The initial task is like the following:
+ 
+The purpose of the tech task is to build parts of a simplified rostering system, which allows users of a certain application to register to the system, providing their address book of contacts.
+ 
+The system will accept only one address book from each user at a time but, for historic purposes, should version out old address books.
+ 
+It is extremely important that the system will be able to establish connections with address books from all users.
+ 
+The system should be able to work with any load of data, meaning it should maintain fairly constant speed regardless of how many address books are rostered.
+ 
+Specifically, the task should address and present the following:
+ 
+1. A database model in SQL Server that will be efficient in registering the address books, regardless of the number of users using the system. To simplify, each user can be identified by a name and email only, and entries in his address book will refer to other users by an email.
+ 
+2. The task should present a solution that will allow .Net code to effectively query the DB model to find the list of connections one user has to all other entries in other address books. There is no need to present any .Net code; what needs to be shown is how, on the DB side, would this querying be supported/implemented.
+ 
+ ....
+ 
+ The task should be resolved using MS SQL Server 2012/2014 and any required associated services

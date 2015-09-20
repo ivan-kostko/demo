@@ -1,0 +1,2 @@
+﻿CREATE VIEW [test].[V_NEWID_VALUE]
+	AS SELECT CAST(NEWID() AS NVARCHAR(64)) AS [Nnewid_nvarchar]

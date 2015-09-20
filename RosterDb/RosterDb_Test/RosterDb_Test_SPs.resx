@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="expectedSchemaCondition3.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition3.Schema" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABNTeXN0ZW0uRGF0YS5E
+        YXRhU2V0AwAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lvbglYbWxTY2hlbWELWG1sRGlmZkdyYW0DAQEO
+        U3lzdGVtLlZlcnNpb24CAAAACQMAAAAGBAAAAMUXPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+        dXRmLTE2Ij8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgbXNk
+        YXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOkxvY2FsZT0icnUtUlUiPg0KICAgIDx4czpjb21wbGV4
+        VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+
+        DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IklkIiB0eXBlPSJ4czppbnQiIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIw
+        IiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTdGF0dXNfaWQiIHR5cGU9InhzOmJv
+        b2xlYW4iIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAg
+        ICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICA8L3hz
+        OmVsZW1lbnQ+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlMSI+DQogICAgICAgICAgPHhz
+        OmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICA8eHM6
+        ZWxlbWVudCBuYW1lPSJBZGRyZXNzX2Jvb2tfZW50cnlfeG1sX3RlbXBfc3RvcmFnZV9pZCIgdHlwZT0i
+        eHM6aW50IiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAg
+        ICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQ29udGFjdF9uYW1lIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0
+        YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxl
+        bWVudCBuYW1lPSJFbWFpbCIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIi
+        IG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250
+        YWN0X2RhdGExIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2Nj
+        dXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0
+        YTIiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAi
+        IC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMyIgdHlw
+        ZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAg
+        ICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAg
+        ICAgPC94czplbGVtZW50Pg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUYWJsZTIiPg0KICAgICAg
+        ICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAg
+        ICAgPHhzOmVsZW1lbnQgbmFtZT0iQWRkcmVzc19ib29rX2VudHJ5X3htbF90ZW1wX3N0b3JhZ2VfaWQi
+        IHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQog
+        ICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5n
+        IiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAg
+        PHhzOmVsZW1lbnQgbmFtZT0iRW1haWwiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVz
+        cGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNv
+        bWVfY29udGFjdF9kYXRhMSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIi
+        IG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250
+        YWN0X2RhdGEyIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2Nj
+        dXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0
+        YTMiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAi
+        IC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+
+        DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUzIj4N
+        CiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAg
+        ICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlN0YXR1c19pZCIgdHlwZT0ieHM6Ym9vbGVhbiIgbXNk
+        YXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNl
+        cXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4N
+        CiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGU0Ij4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1
+        cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxl
+        eFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgIDwveHM6Y2hvaWNlPg0KICAgIDwveHM6
+        Y29tcGxleFR5cGU+DQogIDwveHM6ZWxlbWVudD4NCjwveHM6c2NoZW1hPgYFAAAAgAE8ZGlmZmdyOmRp
+        ZmZncmFtIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiB4
+        bWxuczpkaWZmZ3I9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206eG1sLWRpZmZncmFtLXYxIiAvPgQD
+        AAAADlN5c3RlbS5WZXJzaW9uBAAAAAZfTWFqb3IGX01pbm9yBl9CdWlsZAlfUmV2aXNpb24AAAAACAgI
+        CAIAAAAAAAAA//////////8L
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dbo_address_book_create_request_message_handlerTest_TestAction.SqlScript" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <metadata name="expectedSchemaCondition4.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition4.Schema" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABNTeXN0ZW0uRGF0YS5E
+        YXRhU2V0AwAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lvbglYbWxTY2hlbWELWG1sRGlmZkdyYW0DAQEO
+        U3lzdGVtLlZlcnNpb24CAAAACQMAAAAGBAAAAIQGPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+        dXRmLTE2Ij8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgbXNk
+        YXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOkxvY2FsZT0icnUtUlUiPg0KICAgIDx4czpjb21wbGV4
+        VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+
+        DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IlJDIiB0eXBlPSJ4czppbnQiIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIw
+        IiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJlcnJvcl9tc2ciIHR5cGU9InhzOnN0
+        cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAg
+        ICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6
+        ZWxlbWVudD4NCiAgICAgIDwveHM6Y2hvaWNlPg0KICAgIDwveHM6Y29tcGxleFR5cGU+DQogIDwveHM6
+        ZWxlbWVudD4NCjwveHM6c2NoZW1hPgYFAAAAgAE8ZGlmZmdyOmRpZmZncmFtIHhtbG5zOm1zZGF0YT0i
+        dXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiB4bWxuczpkaWZmZ3I9InVybjpzY2hl
+        bWFzLW1pY3Jvc29mdC1jb206eG1sLWRpZmZncmFtLXYxIiAvPgQDAAAADlN5c3RlbS5WZXJzaW9uBAAA
+        AAZfTWFqb3IGX01pbm9yBl9CdWlsZAlfUmV2aXNpb24AAAAACAgICAIAAAAAAAAA//////////8L
+</value>
+  </data>
+  <data name="dbo_log_errorTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.log_error
+DECLARE @RC AS INT
+		, @options AS BIGINT
+		, @ERROR_NUMBER AS INT
+		, @ERROR_SEVERITY AS INT
+		, @ERROR_STATE AS INT
+		, @ERROR_LINE AS INT
+		, @ERROR_PROCEDURE AS NVARCHAR (255)
+		, @ERROR_MESSAGE AS NVARCHAR (4000)
+		, @separator_char AS CHAR (1)
+		, @error_msg AS NVARCHAR (MAX)
+		--, @expected_error_msg AS NVARCHAR(max) = N'Opt: 0|Err: 0|Svr: 0|Stt: 0|Ln : 0|Prc: NULL|Msg: NULL|'
+
+SELECT @RC = 0,
+       @options = 0,
+       @ERROR_NUMBER = 0,
+       @ERROR_SEVERITY = 0,
+       @ERROR_STATE = 0,
+       @ERROR_LINE = 0,
+       @ERROR_PROCEDURE = NULL,
+       @ERROR_MESSAGE = NULL,
+       @separator_char = NULL;
+
+EXECUTE @RC = [dbo].[log_error] @options, @ERROR_NUMBER, @ERROR_SEVERITY, @ERROR_STATE, @ERROR_LINE, @ERROR_PROCEDURE, @ERROR_MESSAGE, @separator_char, @error_msg OUTPUT;
+
+SELECT @RC AS RC
+       , @error_msg AS error_msg
+	   --CASE WHEN @error_msg != @expected_error_msg THEN 1 ELSE 0 END AS error_msg;
+
+</value>
+  </data>
+  <data name="dbo_register_user_contact_listTest_TestAction.SqlScript" xml:space="preserve">
+    <value>
+
+-- database unit test for dbo.register_user_contact_list
+DECLARE @RC AS INT
+		, @user_id			AS INT
+		, @user_name					NVARCHAR(255)							-- users name
+		, @user_email				NVARCHAR(320)							-- users email
+		, @user_current_address_book_id AS INT
+		, @user_new_address_book_id INT			-- newly created users address book
+		, @address_book_entry_xml XML	(AddressBookEntrySchemaCollection)
+
+
+	-- drop temp table if exists
+	IF OBJECT_ID('tempdb..#ADDRESS_BOOK_ENTRY_INITIAL_DATA') IS NOT NULL
+		DROP TABLE #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+
+	-- drop temp table if exists
+	IF OBJECT_ID('tempdb..#ADDRESS_BOOK_ENTRY_RESULT_DATA') IS NOT NULL
+		DROP TABLE #ADDRESS_BOOK_ENTRY_RESULT_DATA
+	
+	-- assign random user for tests purpose
+	SELECT TOP 1 
+		@user_id = u.[Id] 
+		, @user_name = [Name]
+		, @user_email = e.[Email]
+		, @user_current_address_book_id = u.User_actual_address_book_id
+	FROM 
+		[dbo].[USER] u 
+		INNER JOIN [dbo].[EMAIL] e ON e.[Id] = u.[Email_id]
+	ORDER BY ISNULL(u.[User_actual_address_book_id], 0) , NEWID()
+				
+	-- generate address book entries sample
+	SELECT
+		*
+	INTO #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	FROM
+		[test].[fn_generate_address_book_entries](2, 2, 2, 2);
+		
+	-- generate xml address book sample
+	SELECT @address_book_entry_xml = (
+		SELECT		
+			(SELECT
+				*
+			FROM
+				#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+				FOR XML RAW, TYPE
+		   ) AS address_book_entry
+		FOR XML PATH(''), ELEMENTS)
+
+	-- test sync
+	BEGIN TRAN
+		
+		-- perform address book creating sync
+		EXEC [dbo].[register_user_contact_list]
+			@user_name = @user_name
+			, @user_email = @user_email
+			, @address_book_entry_xml = @address_book_entry_xml
+			, @save_address_book_async = 0
+		
+		-- check valid until for current book was updated 
+		SELECT
+			1
+		FROM
+			dbo.[ADDRESS_BOOK] ab WITH(NOLOCK)
+		WHERE
+			ab.[User_id] = @user_id
+		AND(	@user_current_address_book_id IS NULL
+		OR (ab.[Id] = @user_current_address_book_id
+			AND ab.[Valid_until] BETWEEN GETDATE()-.01 AND getdate()+.01))
+
+		-- check valid until for current book was updated 
+		SELECT
+			1
+		FROM
+			dbo.[USER] u WITH(NOLOCK)
+			INNER JOIN dbo.[ADDRESS_BOOK] ab WITH(NOLOCK) ON ab.[Id] = u.[User_actual_address_book_id] AND ab.[User_id] = u.[Id]
+		WHERE
+			u.[Id] = @user_id
+		AND ab.[Address_book_status_id] = 1		
+		AND ab.[Valid_until] IS NULL
+
+
+		--SELECT * FROM dbo.[ADDRESS_BOOK] ab WHERE ab.[Id] = @user_current_address_book_id
+
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		INTO #ADDRESS_BOOK_ENTRY_RESULT_DATA
+		FROM
+			dbo.[USER] u WITH(NOLOCK)
+			INNER JOIN dbo.[ADDRESS_BOOK] ab WITH(NOLOCK) ON ab.[Id] = u.[User_actual_address_book_id] --AND ab.[User_id] = u.[Id]
+			INNER JOIN [dbo].[ADDRESS_BOOK_ENTRY] abe WITH(NOLOCK) ON abe.[Address_book_id] = ab.[Id] 
+			LEFT JOIN [dbo].[EMAIL] e WITH(NOLOCK) ON e.Id = abe.[Email_id] 
+		WHERE
+			u.[Id] = @user_id
+
+		-- check that address book saved completely
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+		EXCEPT
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM	#ADDRESS_BOOK_ENTRY_RESULT_DATA
+	
+		--ORDER BY [Email]
+		
+		-- check that nothing else was saved to address book
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM	#ADDRESS_BOOK_ENTRY_RESULT_DATA
+		EXCEPT
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+		--ORDER BY [Email]
+		
+
+
+	ROLLBACK
+
+
+
+</value>
+  </data>
+  <metadata name="expectedSchemaCondition2.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition2.Schema" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABNTeXN0ZW0uRGF0YS5E
+        YXRhU2V0AwAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lvbglYbWxTY2hlbWELWG1sRGlmZkdyYW0DAQEO
+        U3lzdGVtLlZlcnNpb24CAAAACQMAAAAGBAAAAMkSPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+        dXRmLTE2Ij8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgbXNk
+        YXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOkxvY2FsZT0icnUtUlUiPg0KICAgIDx4czpjb21wbGV4
+        VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+
+        DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1
+        cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxl
+        eFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFi
+        bGUxIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+
+        DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNk
+        YXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNl
+        cXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4N
+        CiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUyIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIi
+        IG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRW1haWwiIHR5
+        cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQog
+        ICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMSIgdHlwZT0ieHM6
+        c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAg
+        ICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEyIiB0eXBlPSJ4czpzdHJpbmci
+        IG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8
+        eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRh
+        OnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVl
+        bmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAg
+        ICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUzIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+
+        DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9
+        IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1p
+        bk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRW1haWwiIHR5cGU9
+        InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAg
+        ICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMSIgdHlwZT0ieHM6c3Ry
+        aW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAg
+        ICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEyIiB0eXBlPSJ4czpzdHJpbmciIG1z
+        ZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6
+        ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRh
+        cmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNl
+        Pg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAg
+        IDwveHM6Y2hvaWNlPg0KICAgIDwveHM6Y29tcGxleFR5cGU+DQogIDwveHM6ZWxlbWVudD4NCjwveHM6
+        c2NoZW1hPgYFAAAAgAE8ZGlmZmdyOmRpZmZncmFtIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiB4bWxuczpkaWZmZ3I9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1j
+        b206eG1sLWRpZmZncmFtLXYxIiAvPgQDAAAADlN5c3RlbS5WZXJzaW9uBAAAAAZfTWFqb3IGX01pbm9y
+        Bl9CdWlsZAlfUmV2aXNpb24AAAAACAgICAIAAAAAAAAA//////////8L
+</value>
+  </data>
+  <data name="dbo_create_address_bookTest_TestAction.SqlScript" xml:space="preserve">
+    <value>
+
+-- database unit test for dbo.create_address_book
+DECLARE @RC AS INT
+		, @user_id			AS INT
+		, @user_current_address_book_id AS INT
+		, @user_new_address_book_id INT			-- newly created users address book
+		, @user_max_address_book_id AS INT
+		, @address_book_doc INT
+		, @address_book_entry_xml XML	(AddressBookEntrySchemaCollection)
+		, @address_book_entry_xml_temp_storage_id	INT
+		, @xml XML
+
+	-- drop temp table if exists
+	IF OBJECT_ID('tempdb..#ADDRESS_BOOK_ENTRY_INITIAL_DATA') IS NOT NULL
+		DROP TABLE #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	
+	-- assign random user for tests purpose
+	SELECT TOP 1 
+		@user_id = [Id] 
+		, @user_current_address_book_id = u.User_actual_address_book_id
+	FROM 
+		[dbo].[USER] u 
+	ORDER BY ISNULL(u.[User_actual_address_book_id], 0) , NEWID()
+	
+	-- get user maximal address book id
+	SELECT
+		@user_max_address_book_id = ISNULL(MAX([Id]), 0)
+	FROM
+		[dbo].[ADDRESS_BOOK] ab
+	WHERE
+		ab.[User_id] = @user_id
+			
+	-- generate address book entries sample
+	SELECT
+		*
+	INTO #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	FROM
+		[test].[fn_generate_address_book_entries](2, 2, 2, 2);
+		
+	-- generate xml address book sample
+	SELECT @address_book_entry_xml = (
+		SELECT		
+			(SELECT
+				*
+			FROM
+				#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+				FOR XML RAW, TYPE
+		   ) AS address_book_entry
+		FOR XML PATH(''), ELEMENTS)
+
+	-- test sync
+	BEGIN TRAN
+		
+		-- perform address book creating sync
+		EXEC [dbo].[create_address_book]
+			@user_id = @user_id
+			, @user_current_address_book_id = @user_current_address_book_id
+			, @user_new_address_book_id = @user_new_address_book_id OUT
+			, @address_book_entry_xml = @address_book_entry_xml
+		
+		-- check valid until for current book was updated 
+		SELECT
+			1
+		FROM
+			dbo.[ADDRESS_BOOK] ab WITH(NOLOCK)
+		WHERE
+			ab.[User_id] = @user_id
+		AND(	@user_current_address_book_id IS NULL
+		OR (ab.[Id] = @user_current_address_book_id
+			AND ab.[Valid_until] BETWEEN GETDATE()-.01 AND getdate()+.01))
+
+		-- check valid until for current book was updated 
+		SELECT
+			1
+		FROM
+			dbo.[ADDRESS_BOOK] ab WITH(NOLOCK)
+		WHERE
+			ab.[User_id] = @user_id
+		AND ab.[Id] = @user_new_address_book_id
+		AND ab.[Valid_until] IS NULL
+
+
+		--SELECT * FROM dbo.[ADDRESS_BOOK] ab WHERE ab.[Id] = @user_current_address_book_id
+
+		-- check that address book saved completely
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+		EXCEPT
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY] abe WITH(NOLOCK)
+			LEFT JOIN [dbo].[EMAIL] e ON e.Id = abe.[Email_id]
+		WHERE 
+			abe.[Address_book_id] = @user_new_address_book_id
+		--ORDER BY [Email]
+		
+		-- check that nothing else was saved to address book
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY] abe WITH(NOLOCK)
+			LEFT JOIN [dbo].[EMAIL] e ON e.Id = abe.[Email_id]
+		WHERE 
+			abe.[Address_book_id] = @user_new_address_book_id
+		EXCEPT
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+		--ORDER BY [Email]
+		
+
+
+	ROLLBACK
+
+
+
+</value>
+  </data>
+  <data name="dbo_create_address_book_asyncTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.create_address_book_async
+DECLARE @RC AS INT, @user_id INT, @user_current_address_book_id	INT, @address_book_entry_xml_temp_storage_id AS INT, @address_book_entry_xml AS XML(CONTENT [dbo].[AddressBookEntrySchemaCollection]);
+
+	DECLARE @message_type NVARCHAR(256) = N'//CompanyName/Roster/AddressBook/Create/Request'
+	
+	-- drop temp table if exists
+	IF OBJECT_ID('tempdb..#ADDRESS_BOOK_TEST_SAMPLE_dbo_dbo_save_address_book_asyncTest') IS NOT NULL
+		DROP TABLE #ADDRESS_BOOK_TEST_SAMPLE_dbo_dbo_save_address_book_asyncTest
+	
+	-- assign random user for tests purpose
+	SELECT TOP 1 
+		@user_id = [Id] 
+		, @user_current_address_book_id = u.User_actual_address_book_id
+	FROM 
+		[dbo].[USER] u 
+	ORDER BY ISNULL(u.[User_actual_address_book_id], 0) , NEWID()
+				
+	-- generate address book entries sample
+	SELECT
+		*
+	INTO #ADDRESS_BOOK_TEST_SAMPLE_dbo_dbo_save_address_book_asyncTest
+	FROM
+		[test].[fn_generate_address_book_entries](10, 10, 10, 10);
+	
+	-- generate xml address book sample
+	SELECT @address_book_entry_xml = (
+	SELECT		
+		(SELECT
+			*
+		FROM
+			#ADDRESS_BOOK_TEST_SAMPLE_dbo_dbo_save_address_book_asyncTest 
+			FOR XML RAW, TYPE
+	   ) AS address_book_entry   
+	FOR XML PATH(''), ELEMENTS)
+
+	BEGIN TRAN
+
+		-- perform async address book saving
+		EXEC [dbo].[create_address_book_async]
+			@user_id = @user_id
+			, @user_current_address_book_id = @user_current_address_book_id
+			, @address_book_entry_xml = @address_book_entry_xml
+		
+		-- check that a message has been sent to TARGET QUEU
+		SELECT 
+			@address_book_entry_xml_temp_storage_id = x.value('(/address_book/address_book_entry_xml_temp_storage_id/text())[1]', 'INT') 
+		FROM 
+			[dbo].[ADDRESS_BOOK_CREATE_TARGET] abct WITH(NOLOCK)
+			CROSS APPLY (SELECT CAST(abct.[Message_Body] AS XML) AS mb ) AS f
+			OUTER APPLY f.mb.nodes('/address_book') AS doc(x)
+		WHERE
+			abct.[Message_Type_Name] = @message_type
+		AND x.value('(/address_book/user_id/text())[1]', 'INT') = @user_id
+		AND (x.value('(/address_book/user_current_address_book_id/text())[1]', 'INT') = @user_current_address_book_id OR @user_current_address_book_id IS NULL)
+		
+		--SELECT *, CAST([Message_body] AS XML) FROM [dbo].[ADDRESS_BOOK_CREATE_TARGET] abct  WITH(NOLOCK)
+
+		---SELECT @address_book_entry_xml_temp_storage_id
+
+		SELECT
+			1
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE] x WITH(NOLOCK)
+		WHERE
+			x.[Id] = @address_book_entry_xml_temp_storage_id
+		AND CAST(x.[Address_book_entry_xml] AS VARBINARY(MAX)) = CAST(@address_book_entry_xml AS VARBINARY(MAX))
+				
+	ROLLBACK
+</value>
+  </data>
+  <data name="dbo_resolve_email_identificator_param_Test_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.resolve_email_identificator
+
+/*
+The test checks resolving of email passed as parameter
+*/
+
+-- database unit test for dbo.resolve_email_identificator
+DECLARE @RC AS INT, @email AS NVARCHAR (320), @email_id AS INT;
+
+SELECT @RC = 0,
+       @email = NULL;
+	
+	-- generate non existing email
+	WHILE (1=1)
+	BEGIN
+	
+		SELECT @email = CAST(NEWID() AS NVARCHAR(64))+'@'+CAST(NEWID() AS NVARCHAR(64))+'.'+CAST(NEWID() AS NVARCHAR(64))
+
+		IF NOT EXISTS(SELECT 1 FROM [dbo].[EMAIL] e WITH(NOLOCK) WHERE e.[Email] = @email)
+			BREAK;
+
+	END
+
+	BEGIN TRAN	   
+	
+		-- reset @email_id to NULL
+		SET @email_id = NULL
+
+		-- perform resolving id for new email
+		EXECUTE @RC = [dbo].[resolve_email_identificator] @email, @email_id OUTPUT;
+
+		-- check that procedure returned correct @email_id
+		SELECT
+			[Id]
+			, [Email]
+		FROM
+			[dbo].[Email] e WITH(NOLOCK)
+		WHERE
+			e.[Id] = @email_id
+		AND e.[Email] = @email
+
+		-- reset @email_id to NULL
+		SET @email_id = NULL
+
+		-- perform resolving id for existing email
+		EXECUTE @RC = [dbo].[resolve_email_identificator] @email, @email_id OUTPUT;
+
+		-- check that procedure returned correct @email_id
+		SELECT
+			[Id]
+			, [Email]
+		FROM
+			[dbo].[Email] e WITH(NOLOCK)
+		WHERE
+			e.[Id] = @email_id
+		AND e.[Email] = @email
+
+	ROLLBACK
+	
+	-- check that there is no data after rollback
+	SELECT
+		[Id]
+		, [Email]
+	FROM
+		[dbo].[Email] e WITH(NOLOCK)
+	WHERE
+		e.[Id] = @email_id
+	AND e.[Email] = @email
+
+</value>
+  </data>
+  <data name="dbo_resolve_email_identificator_NULL_Test_TestAction.SqlScript" xml:space="preserve">
+    <value>/*
+The test checks that procedure handles NULL as parameters
+*/
+
+-- database unit test for dbo.resolve_email_identificator
+DECLARE @RC AS INT, @email AS NVARCHAR (320), @email_id AS INT;
+
+SELECT @RC = 0,
+       @email = NULL,
+	   @email_id = NULL;
+	
+	-- perform resolving id for existing email
+	EXECUTE @RC = [dbo].[resolve_email_identificator] @email, @email_id OUTPUT;
+
+	SELECT @RC</value>
+  </data>
+  <data name="dbo_resolve_email_identificator_single_row_Test_TestAction.SqlScript" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dbo_resolve_email_identificator_multy_row_Test_TestAction.SqlScript" xml:space="preserve">
+    <value>-- drop temp table if exists
+IF OBJECT_ID('tempdb..#ADDRESS_BOOK_ENTRY_INITIAL_DATA') IS NOT NULL
+	EXEC('DROP TABLE #ADDRESS_BOOK_ENTRY_INITIAL_DATA')
+
+DECLARE @RC AS INT
+		, @address_book_entry_xml_temp_storage_id	INT
+
+	
+	-- generate address book entries sample
+	SELECT
+		*
+	INTO #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	FROM
+		[test].[fn_generate_address_book_entries](2, 2, 2, 2);
+
+	-- just get NEW address_book_entry_xml_temp_storage_id for testing
+	INSERT INTO [dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE] ([Address_book_entry_xml])
+	VALUES(NULL)
+
+	SET @address_book_entry_xml_temp_storage_id = SCOPE_IDENTITY()
+
+	SELECT @address_book_entry_xml_temp_storage_id
+
+	INSERT INTO [dbo].[ADDRESS_BOOK_ENTRY_PARSED] (
+		[Address_book_entry_xml_temp_storage_id]
+		, [Contact_name]
+		, [Email]
+		, [Hash]
+		, [Some_contact_data1]
+		, [Some_contact_data2]
+		, [Some_contact_data3]
+	)
+	SELECT
+		@address_book_entry_xml_temp_storage_id
+		, [Contact_name]
+		, [Email]
+		, dbo.fn_hash_email([Email])
+		, [Some_contact_data1]
+		, [Some_contact_data2]
+		, [Some_contact_data3]
+	FROM
+		#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+
+	EXEC [dbo].[resolve_email_identificator] 
+		@address_book_entry_xml_temp_storage_id = @address_book_entry_xml_temp_storage_id
+
+	SELECT 
+		@address_book_entry_xml_temp_storage_id
+		, [Contact_name]
+		, [Email]
+		, [Some_contact_data1]
+		, [Some_contact_data2]
+		, [Some_contact_data3]
+	FROM
+		#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	EXCEPT
+	SELECT
+		[Address_book_entry_xml_temp_storage_id]
+		, [Contact_name]
+		, e.[Email]
+		, [Some_contact_data1]
+		, [Some_contact_data2]
+		, [Some_contact_data3]
+	FROM
+		[dbo].[ADDRESS_BOOK_ENTRY_PARSED] abep
+		LEFT OUTER JOIN [dbo].[EMAIL] e ON e.Id = abep.[Email_id]
+	WHERE
+		abep.[Address_book_entry_xml_temp_storage_id] =  @address_book_entry_xml_temp_storage_id
+
+	SELECT
+		[Address_book_entry_xml_temp_storage_id]
+		, [Contact_name]
+		, e.[Email]
+		, [Some_contact_data1]
+		, [Some_contact_data2]
+		, [Some_contact_data3]
+	FROM
+		[dbo].[ADDRESS_BOOK_ENTRY_PARSED] abep
+		LEFT OUTER JOIN [dbo].[EMAIL] e ON e.Id = abep.[Email_id]
+	WHERE
+		abep.[Address_book_entry_xml_temp_storage_id] =  @address_book_entry_xml_temp_storage_id
+	EXCEPT
+	SELECT 
+		@address_book_entry_xml_temp_storage_id
+		, [Contact_name]
+		, [Email]
+		, [Some_contact_data1]
+		, [Some_contact_data2]
+		, [Some_contact_data3]
+	FROM
+		#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+
+
+	-- clean up inmemory temp storages
+	EXEC [dbo].[remove_address_book_entry_parsed]
+			@address_book_entry_xml_temp_storage_id	
+
+	DELETE [dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE]
+	WHERE
+		[Id] = @address_book_entry_xml_temp_storage_id	</value>
+  </data>
+  <metadata name="expectedSchemaCondition1.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition1.Schema" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABNTeXN0ZW0uRGF0YS5E
+        YXRhU2V0AwAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lvbglYbWxTY2hlbWELWG1sRGlmZkdyYW0DAQEO
+        U3lzdGVtLlZlcnNpb24CAAAACQMAAAAGBAAAAKASPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+        dXRmLTE2Ij8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgbXNk
+        YXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOkxvY2FsZT0icnUtUlUiPg0KICAgIDx4czpjb21wbGV4
+        VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+
+        DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1
+        cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxl
+        eFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFi
+        bGUxIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+
+        DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNk
+        YXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czpl
+        bGVtZW50IG5hbWU9IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFt
+        ZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0i
+        RW1haWwiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9
+        IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMSIg
+        dHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4N
+        CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEyIiB0eXBlPSJ4
+        czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAg
+        ICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMiIHR5cGU9InhzOnN0cmlu
+        ZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8
+        L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxl
+        bWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUyIj4NCiAgICAgICAgICA8eHM6Y29t
+        cGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVt
+        ZW50IG5hbWU9IkFkZHJlc3NfYm9va19lbnRyeV94bWxfdGVtcF9zdG9yYWdlX2lkIiB0eXBlPSJ4czpp
+        bnQiIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAg
+        ICA8eHM6ZWxlbWVudCBuYW1lPSJDb250YWN0X25hbWUiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRh
+        cmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50
+        IG5hbWU9IkVtYWlsIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWlu
+        T2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3Rf
+        ZGF0YTEiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9
+        IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMiIg
+        dHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4N
+        CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEzIiB0eXBlPSJ4
+        czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAg
+        ICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICA8
+        L3hzOmVsZW1lbnQ+DQogICAgICA8L3hzOmNob2ljZT4NCiAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICA8
+        L3hzOmVsZW1lbnQ+DQo8L3hzOnNjaGVtYT4GBQAAAIABPGRpZmZncjpkaWZmZ3JhbSB4bWxuczptc2Rh
+        dGE9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206eG1sLW1zZGF0YSIgeG1sbnM6ZGlmZmdyPSJ1cm46
+        c2NoZW1hcy1taWNyb3NvZnQtY29tOnhtbC1kaWZmZ3JhbS12MSIgLz4EAwAAAA5TeXN0ZW0uVmVyc2lv
+        bgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgCAAAAAAAAAP//////////
+        Cw==
+</value>
+  </data>
+  <data name="dbo_resolve_email_identificator_param_and_multy_row_Test_TestAction.SqlScript" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <metadata name="expectedSchemaCondition5.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition5.Schema" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dbo_address_book_entry_save_request_message_handlerTest_TestAction.SqlScript" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <metadata name="expectedSchemaCondition6.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition6.Schema" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABNTeXN0ZW0uRGF0YS5E
+        YXRhU2V0AwAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lvbglYbWxTY2hlbWELWG1sRGlmZkdyYW0DAQEO
+        U3lzdGVtLlZlcnNpb24CAAAACQMAAAAGBAAAAKIhPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+        dXRmLTE2Ij8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgbXNk
+        YXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOkxvY2FsZT0icnUtUlUiPg0KICAgIDx4czpjb21wbGV4
+        VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+
+        DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIi
+        IG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRW1haWwiIHR5
+        cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQog
+        ICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMSIgdHlwZT0ieHM6
+        c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAg
+        ICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEyIiB0eXBlPSJ4czpzdHJpbmci
+        IG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8
+        eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRh
+        OnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVl
+        bmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAg
+        ICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUxIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+
+        DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9
+        IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1p
+        bk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRW1haWwiIHR5cGU9
+        InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAg
+        ICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMSIgdHlwZT0ieHM6c3Ry
+        aW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAg
+        ICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEyIiB0eXBlPSJ4czpzdHJpbmciIG1z
+        ZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6
+        ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRh
+        cmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNl
+        Pg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAg
+        ICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUyIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQog
+        ICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNv
+        bHVtbjEiIHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAi
+        IC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+
+        DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUzIj4N
+        CiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAg
+        ICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBt
+        c2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhz
+        OmVsZW1lbnQgbmFtZT0iRW1haWwiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFj
+        ZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVf
+        Y29udGFjdF9kYXRhMSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1p
+        bk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0
+        X2RhdGEyIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJz
+        PSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMi
+        IHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+
+        DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQog
+        ICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGU0Ij4NCiAg
+        ICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAg
+        ICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2Rh
+        dGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVs
+        ZW1lbnQgbmFtZT0iRW1haWwiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0i
+        IiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29u
+        dGFjdF9kYXRhMSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9j
+        Y3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2Rh
+        dGEyIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIw
+        IiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMiIHR5
+        cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQog
+        ICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAg
+        ICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGU1Ij4NCiAgICAg
+        ICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAg
+        ICAgIDx4czplbGVtZW50IG5hbWU9IkNvbnRhY3RfbmFtZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6
+        dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1l
+        bnQgbmFtZT0iRW1haWwiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBt
+        aW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFj
+        dF9kYXRhMSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vy
+        cz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEy
+        IiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAv
+        Pg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTMiIHR5cGU9
+        InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAg
+        ICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAg
+        IDwveHM6ZWxlbWVudD4NCiAgICAgIDwveHM6Y2hvaWNlPg0KICAgIDwveHM6Y29tcGxleFR5cGU+DQog
+        IDwveHM6ZWxlbWVudD4NCjwveHM6c2NoZW1hPgYFAAAAgAE8ZGlmZmdyOmRpZmZncmFtIHhtbG5zOm1z
+        ZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiB4bWxuczpkaWZmZ3I9InVy
+        bjpzY2hlbWFzLW1pY3Jvc29mdC1jb206eG1sLWRpZmZncmFtLXYxIiAvPgQDAAAADlN5c3RlbS5WZXJz
+        aW9uBAAAAAZfTWFqb3IGX01pbm9yBl9CdWlsZAlfUmV2aXNpb24AAAAACAgICAIAAAAAAAAA////////
+        //8L
+</value>
+  </data>
+  <data name="dbo_save_address_book_entryTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.save_address_book_entry
+DECLARE @RC AS INT
+		, @address_book_id AS INT
+		, @address_book_doc INT
+		, @address_book_entry_xml XML	(AddressBookEntrySchemaCollection)
+		, @address_book_entry_xml_temp_storage_id	INT
+
+	-- drop temp table if exists
+	IF OBJECT_ID('tempdb..#ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest') IS NOT NULL
+		DROP TABLE #ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest
+	
+	-- assign random address_book for tests purpose
+	SELECT 
+		TOP 1
+		@address_book_id = [Id]
+	FROM
+		[dbo].[ADDRESS_BOOK] ab
+	ORDER BY
+		NEWID()
+			
+	-- generate address book entries sample
+	SELECT
+		*
+	INTO #ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest
+	FROM
+		[test].[fn_generate_address_book_entries](2, 2, 2, 2);
+		
+	-- generate xml address book sample
+	SELECT @address_book_entry_xml = (
+		SELECT		
+			(SELECT
+				*
+			FROM
+				#ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest
+				FOR XML RAW, TYPE
+		   ) AS address_book_entry
+		FOR XML PATH(''), ELEMENTS)
+
+	INSERT INTO [dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE](Address_book_entry_xml)
+	VALUES(@address_book_entry_xml)
+			
+	SET @address_book_entry_xml_temp_storage_id = SCOPE_IDENTITY()
+
+	-- first try with sync save
+	BEGIN TRAN
+		
+		-- cleanup address book
+		DELETE [dbo].[ADDRESS_BOOK_ENTRY]
+		WHERE [Address_book_id] = @address_book_id
+
+		-- perform address book entry saving
+		EXEC [dbo].[save_address_book_entry]
+			@address_book_id = @address_book_id
+			, @address_book_entry_xml = @address_book_entry_xml
+			, @address_book_entry_xml_temp_storage_id = NULL
+
+		-- check that address book saved completely
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest
+		EXCEPT
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY] abe
+			LEFT JOIN [dbo].[EMAIL] e ON e.Id = abe.[Email_id]
+		WHERE 
+			abe.[Address_book_id] = @address_book_id
+		--ORDER BY [Email]
+		
+		-- check that nothing else was saved to address book
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY] abe
+			LEFT JOIN [dbo].[EMAIL] e ON e.Id = abe.[Email_id]
+		WHERE 
+			abe.[Address_book_id] = @address_book_id
+		EXCEPT
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest
+		--ORDER BY [Email]
+		
+		-- Check that sp cleaned up created entry at [ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE]
+		SELECT 
+			1
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE]
+		WHERE
+			[Id] &gt; @address_book_entry_xml_temp_storage_id
+		
+		-- now with async invocation
+		INSERT INTO [ADDRESS_BOOK_ENTRY_PARSED](
+				[Address_book_entry_xml_temp_storage_id]
+				, [Contact_name]		
+				, [Email_id] 			
+				, [Some_contact_data1]
+				, [Some_contact_data2]
+				, [Some_contact_data3]		
+		)
+		SELECT
+				@address_book_entry_xml_temp_storage_id
+				, [Contact_name]		
+				, [Email_id]			
+				, [Some_contact_data1]
+				, [Some_contact_data2]
+				, [Some_contact_data3]
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY]
+		WHERE
+			[Address_book_id] = @address_book_id
+
+			
+		
+		-- cleanup address book
+		DELETE [dbo].[ADDRESS_BOOK_ENTRY]
+		WHERE [Address_book_id] = @address_book_id
+
+		-- perform address book entry saving
+		EXEC [dbo].[save_address_book_entry]
+			@address_book_id = @address_book_id
+			, @address_book_entry_xml = NULL
+			, @address_book_entry_xml_temp_storage_id = @address_book_entry_xml_temp_storage_id
+			, @the_procedure_invoked_async = 1
+
+		-- check that address book saved completely
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest
+		EXCEPT
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY] abe
+			LEFT JOIN [dbo].[EMAIL] e ON e.Id = abe.[Email_id]
+		WHERE 
+			abe.[Address_book_id] = @address_book_id
+		--ORDER BY [Email]
+		
+		-- check that nothing else was saved to address book
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY] abe
+			LEFT JOIN [dbo].[EMAIL] e ON e.Id = abe.[Email_id]
+		WHERE 
+			abe.[Address_book_id] = @address_book_id
+		EXCEPT
+		SELECT Contact_name, Email,	Some_contact_data1,	Some_contact_data2,	Some_contact_data3 FROM #ADDRESS_BOOK_TEST_SAMPLE_dbo_address_book_antry_saveTest
+		--ORDER BY [Email]
+
+	ROLLBACK
+
+	-- now with NULLs
+	BEGIN TRAN
+		
+		-- cleanup address book
+		DELETE [dbo].[ADDRESS_BOOK_ENTRY]
+		WHERE [Address_book_id] = @address_book_id
+
+		-- perform address book creating sync
+		EXEC [dbo].[save_address_book_entry]
+			@address_book_id = @address_book_id
+			, @address_book_entry_xml = NULL
+			, @address_book_entry_xml_temp_storage_id = NULL
+			
+		-- check that address book saved completely
+		SELECT 
+			abe.[Contact_name]
+			, e.[Email]
+			, abe.[Some_contact_data1]
+			, abe.[Some_contact_data2]
+			, abe.[Some_contact_data3] 
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY] abe
+			LEFT JOIN [dbo].[EMAIL] e ON e.Id = abe.[Email_id]
+		WHERE 
+			abe.[Address_book_id] = @address_book_id
+		--ORDER BY [Email]
+		
+	ROLLBACK
+
+				DELETE [dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE]
+				WHERE
+					[Id] = @address_book_entry_xml_temp_storage_id	</value>
+  </data>
+  <data name="dbo_save_address_book_entry_asyncTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.save_address_book_entry_async
+DECLARE @RC AS INT, @address_book_id AS INT, @address_book_entry_xml AS XML(CONTENT [dbo].[AddressBookEntrySchemaCollection]), @address_book_entry_xml_temp_storage_id AS INT;
+
+SELECT @RC = 0,
+       @address_book_id = 0,
+       @address_book_entry_xml = NULL,
+       @address_book_entry_xml_temp_storage_id = 0;
+
+EXECUTE @RC = [dbo].[save_address_book_entry_async] @address_book_id, @address_book_entry_xml, @address_book_entry_xml_temp_storage_id;
+
+SELECT @RC AS RC;
+
+</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

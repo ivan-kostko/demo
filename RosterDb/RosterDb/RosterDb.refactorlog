@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="016a459e-0718-4867-8bfe-301497993852" ChangeDateTime="05/23/2015 09:37:41">
+    <Property Name="ElementName" Value="[dbo].[address_book_save_target_queue_handler]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[address_book_create_target_queue_handler]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bbe8c686-343a-452f-8679-45ae1f9742a5" ChangeDateTime="05/23/2015 09:53:39">
+    <Property Name="ElementName" Value="[dbo].[address_book_save_request_message_handler]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[address_book_create_request_message_handler]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9ba1551e-388c-4897-930f-f544a51dd934" ChangeDateTime="05/23/2015 11:12:37">
+    <Property Name="ElementName" Value="[dbo].[save_address_book_async]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[create_address_book_async]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="328f4230-8f22-46df-ba7c-fc4dfde6ce0c" ChangeDateTime="05/23/2015 11:13:23">
+    <Property Name="ElementName" Value="[dbo].[save_address_book]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[create_address_book]" />
+  </Operation>
+</Operations>

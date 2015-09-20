@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="dbo_companyname_roster_addressbookaction_register_reply_message_handlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookaction_register_reply_message_handler
+DECLARE @RC AS INT, @message_body_xml AS XML, @reply_message_body_xml AS XML;
+
+SELECT @RC = 0,
+       @message_body_xml = NULL;
+
+EXECUTE @RC = [dbo].[companyname_roster_addressbookaction_register_reply_message_handler] @message_body_xml, @reply_message_body_xml OUTPUT;
+
+SELECT @RC AS RC,
+       @reply_message_body_xml AS reply_message_body_xml;
+
+</value>
+  </data>
+  <metadata name="expectedSchemaCondition2.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition2.Schema" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABNTeXN0ZW0uRGF0YS5E
+        YXRhU2V0AwAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lvbglYbWxTY2hlbWELWG1sRGlmZkdyYW0DAQEO
+        U3lzdGVtLlZlcnNpb24CAAAACQMAAAAGBAAAAL0JPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+        dXRmLTE2Ij8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgbXNk
+        YXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOkxvY2FsZT0icnUtUlUiPg0KICAgIDx4czpjb21wbGV4
+        VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+
+        DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1
+        cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxl
+        eFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFi
+        bGUxIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+
+        DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNk
+        YXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNl
+        cXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4N
+        CiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUyIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1
+        cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxl
+        eFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgIDwveHM6Y2hvaWNlPg0KICAgIDwveHM6
+        Y29tcGxleFR5cGU+DQogIDwveHM6ZWxlbWVudD4NCjwveHM6c2NoZW1hPgYFAAAAgAE8ZGlmZmdyOmRp
+        ZmZncmFtIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtbXNkYXRhIiB4
+        bWxuczpkaWZmZ3I9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206eG1sLWRpZmZncmFtLXYxIiAvPgQD
+        AAAADlN5c3RlbS5WZXJzaW9uBAAAAAZfTWFqb3IGX01pbm9yBl9CdWlsZAlfUmV2aXNpb24AAAAACAgI
+        CAIAAAAAAAAA//////////8L
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookaction_register_request_message_handlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookaction_register_request_message_handler
+DECLARE @RC AS INT
+		, @user_id			AS INT
+		, @user_current_address_book_id AS INT
+		, @user_new_address_book_id INT			-- newly created users address book
+		, @address_book_entry_xml XML	(AddressBookEntrySchemaCollection)
+		, @address_book_entry_xml_temp_storage_id	INT
+		, @message_body_xml XML
+		, @reply_message_body_xml XML
+
+	-- drop temp table if exists
+	IF OBJECT_ID('tempdb..#ADDRESS_BOOK_ENTRY_INITIAL_DATA') IS NOT NULL
+		DROP TABLE #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	
+	-- assign random user for tests purpose
+	SELECT TOP 1 
+		@user_id = [Id] 
+		, @user_current_address_book_id = u.User_actual_address_book_id
+	FROM 
+		[dbo].[USER] u 
+	ORDER BY ISNULL(u.[User_actual_address_book_id], 0) , NEWID()
+			
+	-- generate address book entries sample
+	SELECT
+		*
+	INTO #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	FROM
+		[test].[fn_generate_address_book_entries](2, 2, 2, 2);
+		
+	-- generate xml address book sample
+	SELECT @address_book_entry_xml = (
+		SELECT		
+			(SELECT
+				*
+			FROM
+				#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+				FOR XML RAW, TYPE
+		   ) AS address_book_entry
+		FOR XML PATH(''), ELEMENTS)
+
+		INSERT INTO [dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE](Address_book_entry_xml)
+		VALUES(@address_book_entry_xml)
+
+		SET @address_book_entry_xml_temp_storage_id = SCOPE_IDENTITY()
+
+		SET @message_body_xml = (
+			SELECT
+				@user_id									AS [user_id]
+				, @user_current_address_book_id				AS [user_current_address_book_id]
+				, @address_book_entry_xml_temp_storage_id	AS [address_book_entry_xml_temp_storage_id]
+				FOR XML PATH('address_book'), TYPE, ELEMENTS) 
+	
+
+	-- test sync
+	BEGIN TRAN
+		
+		-- perform address book creating sync
+		EXEC [dbo].[companyname_roster_addressbookaction_register_request_message_handler]
+			@message_body_xml			= @message_body_xml
+			, @reply_message_body_xml	= @reply_message_body_xml OUT	
+		
+		-- check valid until for current book was updated 
+		SELECT
+			1
+		FROM
+			dbo.[ADDRESS_BOOK] ab WITH(NOLOCK)
+		WHERE
+			ab.[User_id] = @user_id
+		AND(	@user_current_address_book_id IS NULL
+		OR (ab.[Id] = @user_current_address_book_id
+			AND ab.[Valid_until] BETWEEN GETDATE()-.01 AND getdate()+.01))
+
+		SELECT @user_new_address_book_id = @reply_message_body_xml.value('(/address_book/user_new_address_book_id/text())[1]','INT') 
+		WHERE @reply_message_body_xml.value('(/address_book/user_id/text())[1]','INT') = @user_id
+
+		-- check valid until for current book was updated 
+		SELECT
+			1
+		FROM
+			dbo.[ADDRESS_BOOK] ab WITH(NOLOCK)
+		WHERE
+			ab.[User_id] = @user_id
+		AND ab.[Id] = @user_new_address_book_id
+		AND ab.[Valid_until] IS NULL
+		
+		-- check that address book was sent to address book entry save processing
+		SELECT 
+			1
+		FROM 
+			[dbo].[ADDRESS_BOOK_ENTRY_ACTION_TARGET] abct WITH(NOLOCK)
+			CROSS APPLY (SELECT CAST(abct.[Message_Body] AS XML) AS mb ) AS f
+			OUTER APPLY f.mb.nodes('/address_book_entry') AS doc(x)
+		WHERE
+			abct.[Message_Type_Name] = N'//CompanyName/Roster/AddressBookEntryAction/SaveOnAddressBookCreated/Request'
+		AND (x.value('(/address_book_entry/address_book_id/text())[1]', 'INT') = @user_new_address_book_id)
+		AND (x.value('(/address_book_entry/address_book_entry_xml_temp_storage_id/text())[1]', 'INT') = @address_book_entry_xml_temp_storage_id)
+		
+	ROLLBACK
+
+
+
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookaction_register_request_message_senderTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.[companyname_roster_addressbookaction_register_request_message_sender]
+DECLARE @message_body_xml AS XML = N'&lt;Test/&gt;';
+
+BEGIN TRAN
+	EXECUTE [dbo].[companyname_roster_addressbookaction_register_request_message_sender] @message_body_xml;
+
+	SELECT 
+		1
+	FROM
+		[dbo].[ADDRESS_BOOK_ACTION_TARGET]
+	WHERE
+		[Message_Type_Name] = N'//CompanyName/Roster/AddressBookAction/Register/Request'
+	AND CAST([Message_Body] AS NVARCHAR(MAX)) = CAST(@message_body_xml AS NVARCHAR(MAX))
+ROLLBACK
+
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryaction_saved_reply_message_handlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookentryaction_saved_reply_message_handler
+DECLARE @RC AS INT, @message_body_xml AS XML;
+
+SELECT @RC = 0,
+       @message_body_xml = NULL;
+
+EXECUTE @RC = [dbo].[companyname_roster_addressbookentryaction_saved_reply_message_handler] @message_body_xml;
+
+SELECT @RC AS RC;
+
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_handlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_handler
+DECLARE @RC AS INT, @message_body_xml AS XML, @reply_message_body_xml AS XML;
+
+SELECT @RC = 0,
+       @message_body_xml = NULL;
+
+EXECUTE @RC = [dbo].[companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_handler] @message_body_xml, @reply_message_body_xml OUTPUT;
+
+SELECT @RC AS RC,
+       @reply_message_body_xml AS reply_message_body_xml;
+
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_senderTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.[companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_sender]
+DECLARE @message_body_xml AS XML = N'&lt;Test/&gt;';
+
+BEGIN TRAN
+	EXECUTE [dbo].[companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_sender] @message_body_xml;
+
+	SELECT 
+		1
+	FROM
+		[dbo].[ADDRESS_BOOK_ENTRY_ACTION_TARGET]
+	WHERE
+		[Message_Type_Name] = N'//CompanyName/Roster/AddressBookEntryAction/SaveOnAddressBookCreated/Request'
+	AND CAST([Message_Body] AS NVARCHAR(MAX)) = CAST(@message_body_xml AS NVARCHAR(MAX))
+ROLLBACK</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_handlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_handler
+DECLARE @RC AS INT, @message_body_xml AS XML, @reply_message_body_xml AS XML;
+
+SELECT @RC = 0,
+       @message_body_xml = NULL;
+
+EXECUTE @RC = [dbo].[companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_handler] @message_body_xml, @reply_message_body_xml OUTPUT;
+
+SELECT @RC AS RC,
+       @reply_message_body_xml AS reply_message_body_xml;
+
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_senderTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.[companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_sender]
+DECLARE @message_body_xml AS XML = N'&lt;Test/&gt;';
+
+BEGIN TRAN
+	EXECUTE [dbo].[companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_sender] @message_body_xml;
+
+	SELECT 
+		1
+	FROM
+		[dbo].[ADDRESS_BOOK_ENTRY_ACTION_TARGET]
+	WHERE
+		[Message_Type_Name] = N'//CompanyName/Roster/AddressBookEntryAction/SaveOnAddressBookEntryXmlParsed/Request'
+	AND CAST([Message_Body] AS NVARCHAR(MAX)) = CAST(@message_body_xml AS NVARCHAR(MAX))
+ROLLBACK
+
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryxmlaction_parse_reply_message_handlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookentryxmlaction_parse_reply_message_handler
+
+-- For the moment the procedure is empty and shouldn't be called at all
+DECLARE @RC AS INT, @message_body_xml AS XML, @reply_message_body_xml AS XML;
+
+SELECT @RC = 0,
+       @message_body_xml = NULL;
+
+EXECUTE @RC = [dbo].[companyname_roster_addressbookentryxmlaction_parse_reply_message_handler] @message_body_xml, @reply_message_body_xml OUTPUT;
+
+SELECT @RC AS RC,
+       @reply_message_body_xml AS reply_message_body_xml;
+
+</value>
+  </data>
+  <metadata name="expectedSchemaCondition1.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="expectedSchemaCondition1.Schema" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJl
+        PW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABNTeXN0ZW0uRGF0YS5E
+        YXRhU2V0AwAAABdEYXRhU2V0LlJlbW90aW5nVmVyc2lvbglYbWxTY2hlbWELWG1sRGlmZkdyYW0DAQEO
+        U3lzdGVtLlZlcnNpb24CAAAACQMAAAAGBAAAAOkYPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+        dXRmLTE2Ij8+DQo8eHM6c2NoZW1hIGlkPSJOZXdEYXRhU2V0IiB4bWxucz0iIiB4bWxuczp4cz0iaHR0
+        cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOm1zZGF0YT0idXJuOnNjaGVtYXMtbWlj
+        cm9zb2Z0LWNvbTp4bWwtbXNkYXRhIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iTmV3RGF0YVNldCIgbXNk
+        YXRhOklzRGF0YVNldD0idHJ1ZSIgbXNkYXRhOkxvY2FsZT0icnUtUlUiPg0KICAgIDx4czpjb21wbGV4
+        VHlwZT4NCiAgICAgIDx4czpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+
+        DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1
+        cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxl
+        eFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFi
+        bGUxIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+
+        DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNvbHVtbjEiIHR5cGU9InhzOmludCIgbXNk
+        YXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICA8L3hzOnNl
+        cXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4N
+        CiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVGFibGUyIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5
+        cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5h
+        bWU9IkFkZHJlc3NfYm9va19lbnRyeV94bWxfdGVtcF9zdG9yYWdlX2lkIiB0eXBlPSJ4czppbnQiIG1z
+        ZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6
+        ZWxlbWVudCBuYW1lPSJDb250YWN0X25hbWUiIHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5h
+        bWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9
+        IkVtYWlsIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJz
+        PSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTEi
+        IHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+
+        DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMiIgdHlwZT0i
+        eHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAg
+        ICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0X2RhdGEzIiB0eXBlPSJ4czpzdHJp
+        bmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAg
+        PC94czpzZXF1ZW5jZT4NCiAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICA8L3hzOmVs
+        ZW1lbnQ+DQogICAgICAgIDx4czplbGVtZW50IG5hbWU9IlRhYmxlMyI+DQogICAgICAgICAgPHhzOmNv
+        bXBsZXhUeXBlPg0KICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICA8eHM6ZWxl
+        bWVudCBuYW1lPSJBZGRyZXNzX2Jvb2tfZW50cnlfeG1sX3RlbXBfc3RvcmFnZV9pZCIgdHlwZT0ieHM6
+        aW50IiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAg
+        ICAgPHhzOmVsZW1lbnQgbmFtZT0iQ29udGFjdF9uYW1lIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0
+        YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVu
+        dCBuYW1lPSJFbWFpbCIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1p
+        bk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iU29tZV9jb250YWN0
+        X2RhdGExIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJz
+        PSIwIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTb21lX2NvbnRhY3RfZGF0YTIi
+        IHR5cGU9InhzOnN0cmluZyIgbXNkYXRhOnRhcmdldE5hbWVzcGFjZT0iIiBtaW5PY2N1cnM9IjAiIC8+
+        DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlNvbWVfY29udGFjdF9kYXRhMyIgdHlwZT0i
+        eHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAg
+        ICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAg
+        PC94czplbGVtZW50Pg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUYWJsZTQiPg0KICAgICAgICAg
+        IDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAg
+        PHhzOmVsZW1lbnQgbmFtZT0iQ29sdW1uMSIgdHlwZT0ieHM6aW50IiBtc2RhdGE6dGFyZ2V0TmFtZXNw
+        YWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAg
+        ICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAgPC94czplbGVtZW50Pg0KICAgICAgICA8eHM6ZWxl
+        bWVudCBuYW1lPSJUYWJsZTUiPg0KICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAg
+        IDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQ29sdW1uMSIgdHlw
+        ZT0ieHM6aW50IiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAg
+        ICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAg
+        PC94czplbGVtZW50Pg0KICAgICAgPC94czpjaG9pY2U+DQogICAgPC94czpjb21wbGV4VHlwZT4NCiAg
+        PC94czplbGVtZW50Pg0KPC94czpzY2hlbWE+BgUAAACAATxkaWZmZ3I6ZGlmZmdyYW0geG1sbnM6bXNk
+        YXRhPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOnhtbC1tc2RhdGEiIHhtbG5zOmRpZmZncj0idXJu
+        OnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtZGlmZmdyYW0tdjEiIC8+BAMAAAAOU3lzdGVtLlZlcnNp
+        b24EAAAABl9NYWpvcgZfTWlub3IGX0J1aWxkCV9SZXZpc2lvbgAAAAAICAgIAgAAAAAAAAD/////////
+        /ws=
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryxmlaction_parse_request_message_handlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookentryxmlaction_parse_request_message_handler
+-- drop temp table if exists
+IF OBJECT_ID('tempdb..#ADDRESS_BOOK_ENTRY_INITIAL_DATA') IS NOT NULL
+	EXEC('DROP TABLE #ADDRESS_BOOK_ENTRY_INITIAL_DATA')
+
+DECLARE @RC AS INT
+		, @address_book_entry_xml XML	(AddressBookEntrySchemaCollection)
+		, @address_book_entry_xml_temp_storage_id	INT
+		, @message_body_xml XML
+		, @reply_message_body_xml XML
+
+		
+	-- generate address book entries sample
+	SELECT
+		*
+	INTO #ADDRESS_BOOK_ENTRY_INITIAL_DATA
+	FROM
+		[test].[fn_generate_address_book_entries](2, 2, 2, 2);
+
+	-- generate xml address book sample
+	SELECT @address_book_entry_xml = (
+		SELECT		
+			(SELECT
+				*
+			FROM
+				#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+				FOR XML RAW, TYPE
+		   ) AS address_book_entry
+		FOR XML PATH(''), ELEMENTS)
+
+	BEGIN TRAN
+
+		-- just get NEW address_book_entry_xml_temp_storage_id for testing
+		INSERT INTO [dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE] ([Address_book_entry_xml])
+		VALUES(@address_book_entry_xml)
+
+		SET @address_book_entry_xml_temp_storage_id = SCOPE_IDENTITY()
+
+		SELECT 
+			1
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE]
+		WHERE
+			[Id] = @address_book_entry_xml_temp_storage_id
+		
+		SET @message_body_xml = (
+			SELECT
+				@address_book_entry_xml_temp_storage_id	AS [address_book_entry_xml_temp_storage_id]
+				FOR XML PATH('address_book'), TYPE, ELEMENTS) 
+				
+		EXECUTE [dbo].[companyname_roster_addressbookentryxmlaction_parse_request_message_handler] 
+			@message_body_xml = @message_body_xml
+			, @reply_message_body_xml = @reply_message_body_xml OUTPUT;
+
+		SELECT 
+			1 
+		WHERE 
+			@reply_message_body_xml.value('(/address_book_entry/address_book_entry_xml_temp_storage_id/text())[1]', 'INT') != @address_book_entry_xml_temp_storage_id
+
+		SELECT 
+			@address_book_entry_xml_temp_storage_id AS [Address_book_entry_xml_temp_storage_id]
+			, [Contact_name]
+			, [Email]
+			, [Some_contact_data1]
+			, [Some_contact_data2]
+			, [Some_contact_data3]
+		FROM
+			#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+		EXCEPT
+		SELECT
+			[Address_book_entry_xml_temp_storage_id]
+			, [Contact_name]
+			, e.[Email]
+			, [Some_contact_data1]
+			, [Some_contact_data2]
+			, [Some_contact_data3]
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY_PARSED] abep WITH (SNAPSHOT)
+			LEFT OUTER JOIN [dbo].[EMAIL] e ON e.Id = abep.[Email_id]
+		WHERE
+			abep.[Address_book_entry_xml_temp_storage_id] =  @address_book_entry_xml_temp_storage_id
+
+		SELECT
+			[Address_book_entry_xml_temp_storage_id]
+			, [Contact_name]
+			, e.[Email]
+			, [Some_contact_data1]
+			, [Some_contact_data2]
+			, [Some_contact_data3]
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY_PARSED] abep WITH (SNAPSHOT)
+			LEFT OUTER JOIN [dbo].[EMAIL] e ON e.Id = abep.[Email_id]
+		WHERE
+			abep.[Address_book_entry_xml_temp_storage_id] =  @address_book_entry_xml_temp_storage_id
+		EXCEPT
+		SELECT 
+			@address_book_entry_xml_temp_storage_id
+			, [Contact_name]
+			, [Email]
+			, [Some_contact_data1]
+			, [Some_contact_data2]
+			, [Some_contact_data3]
+		FROM
+			#ADDRESS_BOOK_ENTRY_INITIAL_DATA
+
+		SELECT 
+			1
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE]
+		WHERE
+			[Id] = @address_book_entry_xml_temp_storage_id
+
+
+		SELECT 
+			1
+		FROM
+			[dbo].[ADDRESS_BOOK_ENTRY_ACTION_TARGET] q
+		WHERE
+			q.[Message_Type_Name] = N'//CompanyName/Roster/AddressBookEntryAction/SaveOnAddressBookEntryXmlParsed/Request'
+		AND CAST(q.[Message_Body] AS XML).value('(/address_book_entry/address_book_entry_xml_temp_storage_id/text())[1]', 'INT') = @address_book_entry_xml_temp_storage_id
+	
+	ROLLBACK
+
+
+	-- clean up inmemory temp storages
+	EXEC [dbo].[remove_address_book_entry_parsed]
+			@address_book_entry_xml_temp_storage_id	
+
+	DELETE [dbo].[ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE]
+	WHERE
+		[Id] = @address_book_entry_xml_temp_storage_id	
+
+
+
+
+
+</value>
+  </data>
+  <data name="dbo_companyname_roster_addressbookentryxmlaction_parse_request_message_senderTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for dbo.companyname_roster_addressbookentryxmlaction_parse_request_message_sender
+DECLARE @message_body_xml AS XML = N'&lt;Test/&gt;';
+
+BEGIN TRAN
+	EXECUTE [dbo].[companyname_roster_addressbookentryxmlaction_parse_request_message_sender] @message_body_xml;
+
+	SELECT 
+		1
+	FROM
+		[dbo].[ADDRESS_BOOK_ENTRY_XML_ACTION_TARGET]
+	WHERE
+		[Message_Type_Name] = N'//CompanyName/Roster/AddressBookEntryXmlAction/Parse/Request'
+	AND CAST([Message_Body] AS NVARCHAR(MAX)) = CAST(@message_body_xml AS NVARCHAR(MAX))
+ROLLBACK</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

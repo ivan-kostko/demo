@@ -1,0 +1,12 @@
+﻿INSERT INTO [dw].[ROSTERDW_ADDRESS_BOOK_TRANSFER_CANDIDATE] ( [Address_book_id] )
+SELECT [Id] FROM [dbo].[ADDRESS_BOOK] 
+
+INSERT INTO [dw].[ROSTERDW_USER_TRANSFER_CANDIDATE] ( [User_id] )
+SELECT [Id] FROM [dbo].[USER] 
+
+UPDATE [dw].[EXTRACTION_INCREMENTAL_ACTUAL_STATUS]  
+	SET [Value_int] = 0
+		, [Value_str] = NULL
+WHERE
+	[Destination] = N'RosterDW'
+AND [Package] = N'RosterDbToDW'

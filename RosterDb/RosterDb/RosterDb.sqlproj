@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>RosterDb</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{02280c3f-78b9-468a-b8e2-dd9c60963ce9}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>RosterDb</RootNamespace>
+    <AssemblyName>RosterDb</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>True</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <GenerateCreateScript>True</GenerateCreateScript>
+    <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
+    <ServiceBrokerOption>EnableBroker</ServiceBrokerOption>
+    <DefaultCollation>Latin1_General_CI_AS</DefaultCollation>
+    <AutoUpdateStatisticsAsynchronously>True</AutoUpdateStatisticsAsynchronously>
+    <Recovery>SIMPLE</Recovery>
+    <IsChangeTrackingAutoCleanupOn>True</IsChangeTrackingAutoCleanupOn>
+    <ChangeTrackingRetentionPeriod>0</ChangeTrackingRetentionPeriod>
+    <RecursiveTriggersEnabled>True</RecursiveTriggersEnabled>
+    <AllowSnapshotIsolation>False</AllowSnapshotIsolation>
+    <ReadCommittedSnapshot>False</ReadCommittedSnapshot>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Schema" />
+    <Folder Include="Schema\dbo" />
+    <Folder Include="Schema\dbo\Indexes" />
+    <Folder Include="Schema\dbo\Constraints" />
+    <Folder Include="Schema\dbo\Tables" />
+    <Folder Include="Schema\dbo\Tables\Initial_Data" />
+    <Folder Include="Schema\dbo\Constraints\FKs" />
+    <Folder Include="Schema\dbo\Programmability" />
+    <Folder Include="Schema\dbo\Programmability\Functions" />
+    <Folder Include="Schema\dbo\Tables\Triggers" />
+    <Folder Include="Schema\dbo\Programmability\StoredProcedures" />
+    <Folder Include="Schema\dbo\ServiceBroker" />
+    <Folder Include="Schema\dbo\ServiceBroker\MessageTypes" />
+    <Folder Include="Schema\dbo\ServiceBroker\Contracts" />
+    <Folder Include="Schema\dbo\ServiceBroker\Queues" />
+    <Folder Include="Schema\dbo\ServiceBroker\Services" />
+    <Folder Include="Schema\dbo\Programmability\Types" />
+    <Folder Include="Schema\dbo\Programmability\Types\XmlSchemaCollections" />
+    <Folder Include="Schema\test" />
+    <Folder Include="Schema\test\Programmability" />
+    <Folder Include="Schema\test\Programmability\Functions" />
+    <Folder Include="Schema\test\Programmability\Views" />
+    <Folder Include="Schema\dbo\Views" />
+    <Folder Include="Schema\test\Tables" />
+    <Folder Include="Schema\dw" />
+    <Folder Include="Schema\dw\Programmability" />
+    <Folder Include="Schema\dw\Programmability\StoredProcedures" />
+    <Folder Include="Schema\dw\Tables" />
+    <Folder Include="Schema\dw\Tables\InitialData" />
+    <Folder Include="Schema\test\Scripts" />
+    <Folder Include="Schema\dbo\Programmability\StoredProcedures\QueueHandlers" />
+    <Folder Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers" />
+    <Folder Include="Schema\dbo\Tables\InMemory" />
+    <Folder Include="Schema\dbo\Tables\_NOTIFICATION_ERROR_LOGs" />
+    <Folder Include="Schema\dbo\Programmability\StoredProcedures\MessageSenders" />
+    <Folder Include="Schema\dbo\Programmability\Types\UserTypes" />
+    <Folder Include="Schema\dbo\Programmability\Types\UserTypes\InMemory" />
+    <Folder Include="DataBaseSetUp" />
+    <Folder Include="DataBaseSetUp\Storage" />
+    <Folder Include="HelpfullScripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\dbo\Tables\EMAIL.sql" />
+    <Build Include="Schema\dbo\Tables\USER.sql" />
+    <Build Include="Schema\dbo\Tables\USER_STATUS.sql" />
+    <Build Include="Schema\dbo\Tables\ADDRESS_BOOK.sql" />
+    <None Include="Schema\dbo\Tables\Initial_Data\USER_STATUS_fill-up.sql">
+      <AnsiNulls>ProjectDefault</AnsiNulls>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Build Include="Schema\dbo\Tables\ADDRESS_BOOK_ENTRY.sql" />
+    <Build Include="Schema\dbo\Constraints\FKs\FK_USER_to_EMAIL__Email_id_to_Id.sql" />
+    <Build Include="Schema\dbo\Constraints\FKs\FK_ADDRESS_BOOK_ENTRY_to_EMAIL__Email_id_to_Id.sql" />
+    <Build Include="Schema\dbo\Constraints\FKs\FK_USER_to_ADDRESS_BOOK__User_actual_address_book_id_to_Id.sql" />
+    <Build Include="Schema\dbo\Constraints\FKs\FK_ADDRESS_BOOK_to_USER__User_id_to_Id.sql" />
+    <Build Include="Schema\dbo\Constraints\FKs\FK_USER_to_USER_STATUS__Usre_status_id_to_Id.sql" />
+    <Build Include="Schema\dbo\Constraints\FKs\FK_ADDRESS_BOOK_ENTRY_to_ADDRESS_BOOK__Address_book_id_to_Id.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\register_user_contact_list.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\create_address_book.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\log_error.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\create_address_book_async.sql" />
+    <Build Include="Schema\dbo\Programmability\Types\XmlSchemaCollections\AddressBookEntrySchemaCollection.sql" />
+    <Build Include="Schema\test\Programmability\Functions\fn_generate_emails.sql" />
+    <Build Include="Schema\test\Programmability\Views\V_NEWID_VALUE.sql" />
+    <Build Include="Schema\test\Programmability\Functions\fn_get_newid_nvarchar.sql" />
+    <Build Include="Schema\test\test.sql" />
+    <Build Include="Schema\test\Programmability\Functions\fn_generate_address_book_entries.sql" />
+    <Build Include="Schema\dbo\Tables\ADDRESS_BOOK_STATUS.sql" />
+    <Build Include="Schema\dbo\Constraints\FKs\FK_ADDRESS_BOOK_to_ADDRESS_BOOK_STATUS__Address_book_status_id_to_Id.sql" />
+    <Build Include="Schema\dbo\Views\V_USER_TO_USER_CONNECTION.sql" />
+    <Build Include="Schema\dbo\Programmability\Functions\fn_hash_email.sql" />
+    <Build Include="Schema\dbo\Tables\ADDRESS_BOOK_ENTRY_XML_TEMP_STORAGE.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\save_address_book_entry.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\save_address_book_entry_async.sql" />
+    <Build Include="Schema\dbo\Tables\LOG.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\get_address_book_entry_by_email_name.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\get_user_connections_by_email_using_view_index.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\get_user_connections_by_email.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\resolve_single_email_id.sql" />
+    <Build Include="Schema\test\Tables\PERFORMANCE_TEST_PARAMETER_VALUES.sql" />
+    <Build Include="Schema\dw\dw.sql" />
+    <Build Include="Schema\dw\Programmability\StoredProcedures\get_rosterdw_address_book_entry_email_data.sql" />
+    <Build Include="Schema\dw\Programmability\StoredProcedures\get_rosterdw_email_data.sql" />
+    <Build Include="Schema\dw\Programmability\StoredProcedures\get_rosterdw_user_data.sql" />
+    <Build Include="Schema\dw\Tables\EXTRACTION_INCREMENTAL_ACTUAL_STATUS.sql" />
+    <Build Include="Schema\dbo\Tables\Triggers\tr_user_u.sql" />
+    <Build Include="DataBaseSetUp\Storage\MO_FileGroup.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\resolve_email_identificator.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers\companyname_roster_addressbookaction_register_reply_message_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers\companyname_roster_addressbookaction_register_request_message_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers\companyname_roster_addressbookentryaction_saved_reply_message_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers\companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers\companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers\companyname_roster_addressbookentryxmlaction_parse_reply_message_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageHandlers\companyname_roster_addressbookentryxmlaction_parse_request_message_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageSenders\companyname_roster_addressbookaction_register_request_message_sender.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageSenders\companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request_message_sender.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageSenders\companyname_roster_addressbookentryaction_saveonaddressbookcreated_request_message_sender.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\MessageSenders\companyname_roster_addressbookentryxmlaction_parse_request_message_sender.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\QueueHandlers\address_book_action_initiator_queue_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\QueueHandlers\address_book_action_target_queue_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\QueueHandlers\address_book_entry_action_initiator_queue_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\QueueHandlers\address_book_entry_action_target_queue_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\QueueHandlers\address_book_entry_xml_action_initiator_queue_handler.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\QueueHandlers\address_book_entry_xml_action_target_queue_handler.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Contracts\companyname_roster_addressbookactioncontract.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Contracts\companyname_roster_addressbookentryactioncontract.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Contracts\companyname_roster_addressbookentryxmlactioncontract.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\MessageTypes\companyname_roster_addressbookaction_register_reply.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\MessageTypes\companyname_roster_addressbookaction_register_request.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\MessageTypes\companyname_roster_addressbookentryaction_saved_reply.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\MessageTypes\companyname_roster_addressbookentryaction_saveonaddressbookentryxmlparsed_request.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\MessageTypes\companyname_roster_addressbookentryaction_saveonaddressbookcreated_request.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\MessageTypes\companyname_roster_addressbookentryxmlaction_parse_reply.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\MessageTypes\companyname_roster_addressbookentryxmlaction_parse_request.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Queues\ADDRESS_BOOK_ACTION_INITIATOR.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Queues\ADDRESS_BOOK_ACTION_TARGET.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Queues\ADDRESS_BOOK_ENTRY_ACTION_INITIATOR.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Queues\ADDRESS_BOOK_ENTRY_ACTION_TARGET.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Queues\ADDRESS_BOOK_ENTRY_XML_ACTION_INITIATOR.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Queues\ADDRESS_BOOK_ENTRY_XML_ACTION_TARGET.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Services\companyname_roster_address_book_action_initiator.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Services\companyname_roster_address_book_action_target.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Services\companyname_roster_address_book_entry_action_initiator.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Services\companyname_roster_address_book_entry_action_target.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Services\companyname_roster_address_book_entry_xml_action_initiator.sql" />
+    <Build Include="Schema\dbo\ServiceBroker\Services\companyname_roster_address_book_entry_xml_action_target.sql" />
+    <Build Include="Schema\dbo\Tables\_NOTIFICATION_ERROR_LOGs\ADDRESS_BOOK_ACTION_NOTIFICATION_ERROR_LOG.sql" />
+    <Build Include="Schema\dbo\Tables\_NOTIFICATION_ERROR_LOGs\ADDRESS_BOOK_ENTRY_ACTION_NOTIFICATION_ERROR_LOG.sql" />
+    <Build Include="Schema\dbo\Tables\_NOTIFICATION_ERROR_LOGs\ADDRESS_BOOK_ENTRY_XML_ACTION_NOTIFICATION_ERROR_LOG.sql" />
+    <Build Include="Schema\dbo\Tables\InMemory\ADDRESS_BOOK_ENTRY_PARSED.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\prepare_address_book_entry_xml_for_saving.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\remove_address_book_entry_parsed.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\register_addressbookentryxml_parsed.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\register_addressbook_created.sql" />
+    <Build Include="Schema\dbo\Programmability\StoredProcedures\execute_save_address_book_entry_save_on_all_components_synced.sql" />
+    <Build Include="Schema\dbo\Tables\XML_TEMP_STORAGE_ID_TO_ADDRESS_BOOK_ID_MAP.sql" />
+    <Build Include="Schema\dbo\Tables\USER_OLD_VERSION.sql" />
+    <Build Include="Schema\dw\Programmability\StoredProcedures\get_rosterdw_address_book_data.sql" />
+    <Build Include="Schema\dw\Tables\ROSTERDW_ADDRESS_BOOK_TRANSFER_CANDIDATE.sql" />
+    <Build Include="Schema\dw\Tables\ROSTERDW_USER_TRANSFER_CANDIDATE.sql" />
+    <Build Include="Schema\dbo\Tables\Triggers\tr_user_i.sql" />
+    <Build Include="Schema\dbo\Tables\Triggers\tr_address_book_iu.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RosterDb.publish.xml" />
+    <None Include="Schema\dbo\Tables\Initial_Data\ADDRESS_BOOK_STATUS_fill-up.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Add_me.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\dw\Tables\InitialData\EXTRACTION_INCREMENTAL_ACTUAL_STATUS_fill-up.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Schema\test\Scripts\2_Invoke_register_user_contact_list_sample.sql" />
+    <None Include="Schema\test\Scripts\1_generate_PERFORMANCE_TEST_PARAMETER_VALUES_data.sql" />
+    <None Include="HelpfullScripts\Resend_failed_messages_from_ADDRESS_BOOK_ENTRY_XML_ACTION_NOTIFICATION_ERROR_LOG.sql" />
+    <None Include="HelpfullScripts\Reset_RosterDbToDW_transfer_to_process_all_data.sql" />
+    <None Include="HelpfullScripts\Monitoring_critical_counters_queries.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="InitialData.PostDeployment.sql">
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+    </PostDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="RosterDb.refactorlog" />
+  </ItemGroup>
+</Project>
